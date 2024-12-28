@@ -20,6 +20,7 @@ ADTBS += \
 	$(LOCAL_DIR)/sdm450-motorola-ali.dtb  \
 	$(LOCAL_DIR)/sdm450-samsung-r04.dtb  \
 	$(LOCAL_DIR)/sdm450-samsung-r05.dtb  \
+	$(LOCAL_DIR)/sdm450-samsung-m115f.dtb \
 	$(LOCAL_DIR)/sdm450-xiaomi-rosy.dtb  \
 	$(LOCAL_DIR)/sdm632-fairphone-fp3.dtb  \
 	$(LOCAL_DIR)/sdm632-motorola-ocean.dtb  \
