@@ -1,0 +1,18 @@
+//SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+/ {
+	// This is used by the bootloader to find the correct DTB
+        qcom,msm-id = <0x152 0x00>;
+	qcom,board-id = <0xb 0xf6>;
+};
+
+&lk2nd {
+	model = "SAMSUNG SDM450 QRD MP1";
+	compatible = "qcom,sdm450";
+	
+	lk2nd, dtb-files = "sdm450-samsung-m115f";
+};
