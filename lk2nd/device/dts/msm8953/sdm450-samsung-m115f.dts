@@ -14,5 +14,5 @@
 	model = "SAMSUNG SDM450 QRD MP1";
 	compatible = "qcom,sdm450";
 	
-	lk2nd,dtb-files = "sdm450-samsung-m115f";
+	//lk2nd,dtb-files = "sdm450-samsung-m115f";
 };
