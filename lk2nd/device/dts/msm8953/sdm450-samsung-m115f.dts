@@ -7,7 +7,7 @@
 / {
 	// This is used by the bootloader to find the correct DTB
         qcom,msm-id = <0x152 0x00>;
-	qcom,board-id = <0xb 0xf6>;
+	qcom,board-id = <0x0b 0xf6>;
 };
 
 &lk2nd {
