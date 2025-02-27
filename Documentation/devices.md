@@ -17,6 +17,7 @@
 - Huawei Ascend G7 - G7-L01
 - Huawei G7 Plus / G8 / GX8 - rio
 - Huawei Honor 5X / GR5 (2016) - kiwi
+- Huawei MediaPad T2 10.0 Pro - federer
 - Huawei Y635 - Y635-L01 (quirky - see comment in `lk2nd/device/dts/msm8916/msm8916-huawei-y635-l01.dts`)
 - Lenovo A6000
 - Lenovo A6010
@@ -65,6 +66,7 @@
 - Acer Liquid Z330 (T01)
 - CAT B35
 - FarEasTone Smart 506 (quirky - see comment in `lk2nd/device/dts/msm8909/msm8909-1gb-qrd-skuc.dts`)
+- Haier G151 / Andromax A (quirky - see comment in `lk2nd/device/dts/msm8909/msm8909-1gb-qrd-skuc.dts`)
 - Lenovo Yoga Tab 3 10 LTE
 - Mobvoi TicWatch Pro (WF12096)
 - Nokia 6300 4G
@@ -81,20 +83,26 @@
 - Huawei MediaPad T3 10 (ags- l09/l03/w09) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8917-huawei-agassi.dts`)
 - Leeco s2
 - Lenovo K5 Play (l38011)
+- Motorola Moto E5 (nora)
+- Motorola Moto E5 Plus (hannah) (MSM8917)
+- Motorola Moto E5 Plus (hannah) (MSM8937)
 - Motorola Moto G5 (cedric)
 - Motorola Moto G5S (montana)
 - Motorola Moto G6 Play (jeter)
 - OPPO A57 (A57) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8940-oppo-a57.dts`)
-- Redmi 3S (land) (quirky - see comment in `lk2nd/device/dts/msm8952/msm8937-xiaomi-land.dts`)
+- Redmi 3S (land)
+- Redmi 4 (prada)
 - Redmi 4A (rolex)
 - Redmi 4X (santoni)
 - Redmi 5A (riva)
+- Redmi 7A (pine)
 - Redmi Note 3 Pro (kenzo)
 - Redmi Note 5A (ugglite)
 - Redmi Note 5A Prime (ugg)
 - Sony Xperia X
 - Sony Xperia X Compact
 - Wileyfox Swift 2
+- Xiaomi Mi Max (hydrogen)
 
 ### lk2nd-msm8953
 
@@ -116,6 +124,7 @@
 - Samsung Tab A2 XL WIFI
 - Xiaomi Mi A1 (tissot)
 - Xiaomi Mi A2 Lite (daisy)
+- Xiaomi Mi Max 2 (oxygen)
 - Xiaomi Redmi 4 Prime (markw)
 - Xiaomi Redmi 5 (rosy)
 - Xiaomi Redmi 5 Plus (vince)
@@ -125,6 +134,7 @@
 - Xiaomi Redmi S2/Y2 (ysl)
 
 ### lk2nd-msm8974
+- BlackBerry Passport - wolverine
 - Fairphone 2 - FP2
 - HTC One M8 - m8
 - LG G3 - D855
@@ -153,17 +163,19 @@
 - Samsung Galaxy Tab 4 8.0 (2014) - SM-T330, SM-T330NU, SM-T331
 
 ### lk2nd-msm8994
-
+- Huawei Nexus 6P - Angler
 - LG G4 - h815
 
 ### lk2nd-msm8996
 
+- LG G5 - h850
 - LG V20 - h990
 - OnePlus 3T
 - Xiaomi Mi5 - Gemini
 
 ### lk2nd-msm8960
 
+- Samsung Galaxy Express (SGH-I437)
 - Samsung Galaxy S4 Mini (GT-I9195)
 
 ## Porting new devices
