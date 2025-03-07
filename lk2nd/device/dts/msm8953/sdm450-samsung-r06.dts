@@ -1,0 +1,31 @@
+// SPDX-License-Identifier: GPL-2.0-only
+
+/dts-v1/;
+
+#include <skeleton64.dtsi>
+#include <lk2nd.dtsi>
+
+/ {
+	qcom,msm-id = <QCOM_ID_SDM450 0>;
+	qcom,board-id = <QCOM_BOARD_ID_QRD 0xf6>;
+	/* Bootloader appears to really want to access symbols */
+	__symbols__ {};
+};
+
+&lk2nd {
+	sm-m025f-generic {
+		model = "Samsung Galaxy M02s";
+		compatible = "samsung,m025f";
+		lk2nd,match-cmdline = "*SM-M025F*";
+
+		lk2nd,dtb-files = "sdm450-samsung-m025f";
+	};
+
+	sm-m115f-generic {
+		model = "Samsung Galaxy M11";
+		compatible = "samsung,m115f";
+		lk2nd,match-cmdline = "*SM-M115F*";
+
+		lk2nd,dtb-files = "sdm450-samsung-m115f";
+	};
+};
